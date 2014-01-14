@@ -1,0 +1,474 @@
+"region","state","city","link","weight"
+"US","Alabama","auburn","http://auburn.craigslist.org",0.000974593102539087
+"US","Alabama","birmingham","http://bham.craigslist.org",0.000974593102539087
+"US","Alabama","dothan","http://dothan.craigslist.org",0.000974593102539087
+"US","Alabama","florence / muscle shoals","http://shoals.craigslist.org",0.000974593102539087
+"US","Alabama","gadsden-anniston","http://gadsden.craigslist.org",0.000974593102539087
+"US","Alabama","huntsville / decatur","http://huntsville.craigslist.org",0.000974593102539087
+"US","Alabama","mobile","http://mobile.craigslist.org",0.000974593102539087
+"US","Alabama","montgomery","http://montgomery.craigslist.org",0.000974593102539087
+"US","Alabama","tuscaloosa","http://tuscaloosa.craigslist.org",0.000974593102539087
+"US","Alaska","anchorage / mat-su","http://anchorage.craigslist.org",0.00014822006243962
+"US","Alaska","fairbanks","http://fairbanks.craigslist.org",0.00014822006243962
+"US","Alaska","kenai peninsula","http://kenai.craigslist.org",0.00014822006243962
+"US","Alaska","southeast alaska","http://juneau.craigslist.org",0.00014822006243962
+"US","Arizona","flagstaff / sedona","http://flagstaff.craigslist.org",0.00133608470729595
+"US","Arizona","mohave county","http://mohave.craigslist.org",0.00133608470729595
+"US","Arizona","phoenix","http://phoenix.craigslist.org",0.00133608470729595
+"US","Arizona","prescott","http://prescott.craigslist.org",0.00133608470729595
+"US","Arizona","show low","http://showlow.craigslist.org",0.00133608470729595
+"US","Arizona","sierra vista","http://sierravista.craigslist.org",0.00133608470729595
+"US","Arizona","tucson","http://tucson.craigslist.org",0.00133608470729595
+"US","Arizona","yuma","http://yuma.craigslist.org",0.00133608470729595
+"US","Arkansas","fayetteville ","http://fayar.craigslist.org",0.000596679849118424
+"US","Arkansas","fort smith","http://fortsmith.craigslist.org",0.000596679849118424
+"US","Arkansas","jonesboro","http://jonesboro.craigslist.org",0.000596679849118424
+"US","Arkansas","little rock","http://littlerock.craigslist.org",0.000596679849118424
+"US","Arkansas","texarkana","http://texarkana.craigslist.org",0.000596679849118424
+"US","California","bakersfield","http://bakersfield.craigslist.org",0.00772874620624329
+"US","California","chico","http://chico.craigslist.org",0.00772874620624329
+"US","California","fresno / madera","http://fresno.craigslist.org",0.00772874620624329
+"US","California","gold country","http://goldcountry.craigslist.org",0.00772874620624329
+"US","California","hanford-corcoran","http://hanford.craigslist.org",0.00772874620624329
+"US","California","humboldt county","http://humboldt.craigslist.org",0.00772874620624329
+"US","California","imperial county","http://imperial.craigslist.org",0.00772874620624329
+"US","California","inland empire","http://inlandempire.craigslist.org",0.00772874620624329
+"US","California","los angeles","http://losangeles.craigslist.org",0.00772874620624329
+"US","California","mendocino county","http://mendocino.craigslist.org",0.00772874620624329
+"US","California","merced","http://merced.craigslist.org",0.00772874620624329
+"US","California","modesto","http://modesto.craigslist.org",0.00772874620624329
+"US","California","monterey bay","http://monterey.craigslist.org",0.00772874620624329
+"US","California","orange county","http://orangecounty.craigslist.org",0.00772874620624329
+"US","California","palm springs","http://palmsprings.craigslist.org",0.00772874620624329
+"US","California","redding","http://redding.craigslist.org",0.00772874620624329
+"US","California","sacramento","http://sacramento.craigslist.org",0.00772874620624329
+"US","California","san diego","http://sandiego.craigslist.org",0.00772874620624329
+"US","California","san francisco bay area","http://sfbay.craigslist.org",0.00772874620624329
+"US","California","san luis obispo","http://slo.craigslist.org",0.00772874620624329
+"US","California","santa barbara","http://santabarbara.craigslist.org",0.00772874620624329
+"US","California","santa maria","http://santamaria.craigslist.org",0.00772874620624329
+"US","California","siskiyou county","http://siskiyou.craigslist.org",0.00772874620624329
+"US","California","stockton","http://stockton.craigslist.org",0.00772874620624329
+"US","California","susanville","http://susanville.craigslist.org",0.00772874620624329
+"US","California","ventura county","http://ventura.craigslist.org",0.00772874620624329
+"US","California","visalia-tulare","http://visalia.craigslist.org",0.00772874620624329
+"US","California","yuba-sutter","http://yubasutter.craigslist.org",0.00772874620624329
+"US","Colorado","boulder","http://boulder.craigslist.org",0.0010622278525419
+"US","Colorado","colorado springs","http://cosprings.craigslist.org",0.0010622278525419
+"US","Colorado","denver","http://denver.craigslist.org",0.0010622278525419
+"US","Colorado","eastern CO","http://eastco.craigslist.org",0.0010622278525419
+"US","Colorado","fort collins / north CO","http://fortcollins.craigslist.org",0.0010622278525419
+"US","Colorado","high rockies","http://rockies.craigslist.org",0.0010622278525419
+"US","Colorado","pueblo","http://pueblo.craigslist.org",0.0010622278525419
+"US","Colorado","western slope","http://westslope.craigslist.org",0.0010622278525419
+"US","Connecticut","eastern CT","http://newlondon.craigslist.org",0.000725055095054858
+"US","Connecticut","hartford","http://hartford.craigslist.org",0.000725055095054858
+"US","Connecticut","new haven","http://newhaven.craigslist.org",0.000725055095054858
+"US","Connecticut","northwest CT","http://nwct.craigslist.org",0.000725055095054858
+"US","Delaware","delaware","http://delaware.craigslist.org",0.000186652974681303
+"US","District of Columbia","washington","http://washingtondc.craigslist.org",0.000130339464400992
+"US","Florida","daytona beach","http://daytona.craigslist.org",0.00394232073977618
+"US","Florida","florida keys","http://keys.craigslist.org",0.00394232073977618
+"US","Florida","fort lauderdale","http://fortlauderdale.craigslist.org",0.00394232073977618
+"US","Florida","ft myers / SW florida","http://fortmyers.craigslist.org",0.00394232073977618
+"US","Florida","gainesville","http://gainesville.craigslist.org",0.00394232073977618
+"US","Florida","heartland florida","http://cfl.craigslist.org",0.00394232073977618
+"US","Florida","jacksonville","http://jacksonville.craigslist.org",0.00394232073977618
+"US","Florida","lakeland","http://lakeland.craigslist.org",0.00394232073977618
+"US","Florida","north central FL","http://lakecity.craigslist.org",0.00394232073977618
+"US","Florida","ocala","http://ocala.craigslist.org",0.00394232073977618
+"US","Florida","okaloosa / walton","http://okaloosa.craigslist.org",0.00394232073977618
+"US","Florida","orlando","http://orlando.craigslist.org",0.00394232073977618
+"US","Florida","panama city","http://panamacity.craigslist.org",0.00394232073977618
+"US","Florida","pensacola","http://pensacola.craigslist.org",0.00394232073977618
+"US","Florida","sarasota-bradenton","http://sarasota.craigslist.org",0.00394232073977618
+"US","Florida","south florida","http://miami.craigslist.org",0.00394232073977618
+"US","Florida","space coast","http://spacecoast.craigslist.org",0.00394232073977618
+"US","Florida","st augustine","http://staugustine.craigslist.org",0.00394232073977618
+"US","Florida","tallahassee","http://tallahassee.craigslist.org",0.00394232073977618
+"US","Florida","tampa bay area","http://tampa.craigslist.org",0.00394232073977618
+"US","Florida","treasure coast","http://treasure.craigslist.org",0.00394232073977618
+"US","Florida","west palm beach","http://westpalmbeach.craigslist.org",0.00394232073977618
+"US","Georgia","albany ","http://albanyga.craigslist.org",0.00201465807045144
+"US","Georgia","athens","http://athensga.craigslist.org",0.00201465807045144
+"US","Georgia","atlanta","http://atlanta.craigslist.org",0.00201465807045144
+"US","Georgia","augusta","http://augusta.craigslist.org",0.00201465807045144
+"US","Georgia","brunswick","http://brunswick.craigslist.org",0.00201465807045144
+"US","Georgia","columbus ","http://columbusga.craigslist.org",0.00201465807045144
+"US","Georgia","macon / warner robins","http://macon.craigslist.org",0.00201465807045144
+"US","Georgia","northwest GA","http://nwga.craigslist.org",0.00201465807045144
+"US","Georgia","savannah / hinesville","http://savannah.craigslist.org",0.00201465807045144
+"US","Georgia","statesboro","http://statesboro.craigslist.org",0.00201465807045144
+"US","Georgia","valdosta","http://valdosta.craigslist.org",0.00201465807045144
+"US","Hawaii","hawaii","http://honolulu.craigslist.org",0.000283090617125357
+"US","Idaho","boise","http://boise.craigslist.org",0.000325044887967275
+"US","Idaho","east idaho","http://eastidaho.craigslist.org",0.000325044887967275
+"US","Idaho","lewiston / clarkston","http://lewiston.craigslist.org",0.000325044887967275
+"US","Idaho","twin falls","http://twinfalls.craigslist.org",0.000325044887967275
+"US","Illinois","bloomington-normal","http://bn.craigslist.org",0.00259734422397013
+"US","Illinois","champaign urbana","http://chambana.craigslist.org",0.00259734422397013
+"US","Illinois","chicago","http://chicago.craigslist.org",0.00259734422397013
+"US","Illinois","decatur","http://decatur.craigslist.org",0.00259734422397013
+"US","Illinois","la salle co","http://lasalle.craigslist.org",0.00259734422397013
+"US","Illinois","mattoon-charleston","http://mattoon.craigslist.org",0.00259734422397013
+"US","Illinois","peoria","http://peoria.craigslist.org",0.00259734422397013
+"US","Illinois","rockford","http://rockford.craigslist.org",0.00259734422397013
+"US","Illinois","southern illinois","http://carbondale.craigslist.org",0.00259734422397013
+"US","Illinois","springfield ","http://springfieldil.craigslist.org",0.00259734422397013
+"US","Illinois","western IL","http://quincy.craigslist.org",0.00259734422397013
+"US","Indiana","bloomington","http://bloomington.craigslist.org",0.00132484982931585
+"US","Indiana","evansville","http://evansville.craigslist.org",0.00132484982931585
+"US","Indiana","fort wayne","http://fortwayne.craigslist.org",0.00132484982931585
+"US","Indiana","indianapolis","http://indianapolis.craigslist.org",0.00132484982931585
+"US","Indiana","kokomo","http://kokomo.craigslist.org",0.00132484982931585
+"US","Indiana","lafayette / west lafayette","http://tippecanoe.craigslist.org",0.00132484982931585
+"US","Indiana","muncie / anderson","http://muncie.craigslist.org",0.00132484982931585
+"US","Indiana","richmond ","http://richmondin.craigslist.org",0.00132484982931585
+"US","Indiana","south bend / michiana","http://southbend.craigslist.org",0.00132484982931585
+"US","Indiana","terre haute","http://terrehaute.craigslist.org",0.00132484982931585
+"US","Iowa","ames","http://ames.craigslist.org",0.000623101228737696
+"US","Iowa","cedar rapids","http://cedarrapids.craigslist.org",0.000623101228737696
+"US","Iowa","des moines","http://desmoines.craigslist.org",0.000623101228737696
+"US","Iowa","dubuque","http://dubuque.craigslist.org",0.000623101228737696
+"US","Iowa","fort dodge","http://fortdodge.craigslist.org",0.000623101228737696
+"US","Iowa","iowa city","http://iowacity.craigslist.org",0.000623101228737696
+"US","Iowa","mason city","http://masoncity.craigslist.org",0.000623101228737696
+"US","Iowa","quad cities","http://quadcities.craigslist.org",0.000623101228737696
+"US","Iowa","sioux city","http://siouxcity.craigslist.org",0.000623101228737696
+"US","Iowa","southeast IA","http://ottumwa.craigslist.org",0.000623101228737696
+"US","Iowa","waterloo / cedar falls","http://waterloo.craigslist.org",0.000623101228737696
+"US","Kansas","lawrence","http://lawrence.craigslist.org",0.000583490430613244
+"US","Kansas","manhattan","http://ksu.craigslist.org",0.000583490430613244
+"US","Kansas","northwest KS","http://nwks.craigslist.org",0.000583490430613244
+"US","Kansas","salina","http://salina.craigslist.org",0.000583490430613244
+"US","Kansas","southeast KS","http://seks.craigslist.org",0.000583490430613244
+"US","Kansas","southwest KS","http://swks.craigslist.org",0.000583490430613244
+"US","Kansas","topeka","http://topeka.craigslist.org",0.000583490430613244
+"US","Kansas","wichita","http://wichita.craigslist.org",0.000583490430613244
+"US","Kentucky","bowling green","http://bgky.craigslist.org",0.000886195811555678
+"US","Kentucky","eastern kentucky","http://eastky.craigslist.org",0.000886195811555678
+"US","Kentucky","lexington","http://lexington.craigslist.org",0.000886195811555678
+"US","Kentucky","louisville","http://louisville.craigslist.org",0.000886195811555678
+"US","Kentucky","owensboro","http://owensboro.craigslist.org",0.000886195811555678
+"US","Kentucky","western KY","http://westky.craigslist.org",0.000886195811555678
+"US","Louisiana","baton rouge","http://batonrouge.craigslist.org",0.000932604555661552
+"US","Louisiana","central louisiana","http://cenla.craigslist.org",0.000932604555661552
+"US","Louisiana","houma","http://houma.craigslist.org",0.000932604555661552
+"US","Louisiana","lafayette","http://lafayette.craigslist.org",0.000932604555661552
+"US","Louisiana","lake charles","http://lakecharles.craigslist.org",0.000932604555661552
+"US","Louisiana","monroe","http://monroe.craigslist.org",0.000932604555661552
+"US","Louisiana","new orleans","http://neworleans.craigslist.org",0.000932604555661552
+"US","Louisiana","shreveport","http://shreveport.craigslist.org",0.000932604555661552
+"US","Maine","maine","http://maine.craigslist.org",0.000267817215654701
+"US","Maryland","annapolis","http://annapolis.craigslist.org",0.00119538964604029
+"US","Maryland","baltimore","http://baltimore.craigslist.org",0.00119538964604029
+"US","Maryland","eastern shore","http://easternshore.craigslist.org",0.00119538964604029
+"US","Maryland","frederick","http://frederick.craigslist.org",0.00119538964604029
+"US","Maryland","southern maryland","http://smd.craigslist.org",0.00119538964604029
+"US","Maryland","western maryland","http://westmd.craigslist.org",0.00119538964604029
+"US","Massachusetts","boston","http://boston.craigslist.org",0.00134943219881244
+"US","Massachusetts","cape cod / islands","http://capecod.craigslist.org",0.00134943219881244
+"US","Massachusetts","south coast","http://southcoast.craigslist.org",0.00134943219881244
+"US","Massachusetts","western massachusetts","http://westernmass.craigslist.org",0.00134943219881244
+"US","Massachusetts","worcester / central MA","http://worcester.craigslist.org",0.00134943219881244
+"US","Michigan","ann arbor","http://annarbor.craigslist.org",0.00199519230657743
+"US","Michigan","battle creek","http://battlecreek.craigslist.org",0.00199519230657743
+"US","Michigan","central michigan","http://centralmich.craigslist.org",0.00199519230657743
+"US","Michigan","detroit metro","http://detroit.craigslist.org",0.00199519230657743
+"US","Michigan","flint","http://flint.craigslist.org",0.00199519230657743
+"US","Michigan","grand rapids","http://grandrapids.craigslist.org",0.00199519230657743
+"US","Michigan","holland","http://holland.craigslist.org",0.00199519230657743
+"US","Michigan","jackson ","http://jxn.craigslist.org",0.00199519230657743
+"US","Michigan","kalamazoo","http://kalamazoo.craigslist.org",0.00199519230657743
+"US","Michigan","lansing","http://lansing.craigslist.org",0.00199519230657743
+"US","Michigan","monroe ","http://monroemi.craigslist.org",0.00199519230657743
+"US","Michigan","muskegon","http://muskegon.craigslist.org",0.00199519230657743
+"US","Michigan","northern michigan","http://nmi.craigslist.org",0.00199519230657743
+"US","Michigan","port huron","http://porthuron.craigslist.org",0.00199519230657743
+"US","Michigan","saginaw-midland-baycity","http://saginaw.craigslist.org",0.00199519230657743
+"US","Michigan","southwest michigan","http://swmi.craigslist.org",0.00199519230657743
+"US","Michigan","the thumb","http://thumb.craigslist.org",0.00199519230657743
+"US","Michigan","upper peninsula","http://up.craigslist.org",0.00199519230657743
+"US","Minnesota","bemidji","http://bemidji.craigslist.org",0.00109287728196632
+"US","Minnesota","brainerd","http://brainerd.craigslist.org",0.00109287728196632
+"US","Minnesota","duluth / superior","http://duluth.craigslist.org",0.00109287728196632
+"US","Minnesota","mankato","http://mankato.craigslist.org",0.00109287728196632
+"US","Minnesota","minneapolis / st paul","http://minneapolis.craigslist.org",0.00109287728196632
+"US","Minnesota","rochester ","http://rmn.craigslist.org",0.00109287728196632
+"US","Minnesota","southwest MN","http://marshall.craigslist.org",0.00109287728196632
+"US","Minnesota","st cloud","http://stcloud.craigslist.org",0.00109287728196632
+"US","Mississippi","gulfport / biloxi","http://gulfport.craigslist.org",0.000603098339223198
+"US","Mississippi","hattiesburg","http://hattiesburg.craigslist.org",0.000603098339223198
+"US","Mississippi","jackson","http://jackson.craigslist.org",0.000603098339223198
+"US","Mississippi","meridian","http://meridian.craigslist.org",0.000603098339223198
+"US","Mississippi","north mississippi","http://northmiss.craigslist.org",0.000603098339223198
+"US","Mississippi","southwest MS","http://natchez.craigslist.org",0.000603098339223198
+"US","Missouri","columbia / jeff city","http://columbiamo.craigslist.org",0.00121864835569087
+"US","Missouri","joplin","http://joplin.craigslist.org",0.00121864835569087
+"US","Missouri","kansas city","http://kansascity.craigslist.org",0.00121864835569087
+"US","Missouri","kirksville","http://kirksville.craigslist.org",0.00121864835569087
+"US","Missouri","lake of the ozarks","http://loz.craigslist.org",0.00121864835569087
+"US","Missouri","southeast missouri","http://semo.craigslist.org",0.00121864835569087
+"US","Missouri","springfield","http://springfield.craigslist.org",0.00121864835569087
+"US","Missouri","st joseph","http://stjoseph.craigslist.org",0.00121864835569087
+"US","Missouri","st louis","http://stlouis.craigslist.org",0.00121864835569087
+"US","Montana","billings","http://billings.craigslist.org",0.000204681362920559
+"US","Montana","bozeman","http://bozeman.craigslist.org",0.000204681362920559
+"US","Montana","butte","http://butte.craigslist.org",0.000204681362920559
+"US","Montana","great falls","http://greatfalls.craigslist.org",0.000204681362920559
+"US","Montana","helena","http://helena.craigslist.org",0.000204681362920559
+"US","Montana","kalispell","http://kalispell.craigslist.org",0.000204681362920559
+"US","Montana","missoula","http://missoula.craigslist.org",0.000204681362920559
+"US","Montana","eastern montana","http://montana.craigslist.org",0.000204681362920559
+"US","Nebraska","grand island","http://grandisland.craigslist.org",0.000376737182151544
+"US","Nebraska","lincoln","http://lincoln.craigslist.org",0.000376737182151544
+"US","Nebraska","north platte","http://northplatte.craigslist.org",0.000376737182151544
+"US","Nebraska","omaha / council bluffs","http://omaha.craigslist.org",0.000376737182151544
+"US","Nebraska","scottsbluff / panhandle","http://scottsbluff.craigslist.org",0.000376737182151544
+"US","Nevada","elko","http://elko.craigslist.org",0.000562557652414847
+"US","Nevada","las vegas","http://lasvegas.craigslist.org",0.000562557652414847
+"US","Nevada","reno / tahoe","http://reno.craigslist.org",0.000562557652414847
+"US","New Hampshire","new hampshire","http://nh.craigslist.org",0.000266840751887113
+"US","New Jersey","central NJ","http://cnj.craigslist.org",0.00179431800309515
+"US","New Jersey","jersey shore","http://jerseyshore.craigslist.org",0.00179431800309515
+"US","New Jersey","north jersey","http://newjersey.craigslist.org",0.00179431800309515
+"US","New Jersey","south jersey","http://southjersey.craigslist.org",0.00179431800309515
+"US","New Mexico","albuquerque","http://albuquerque.craigslist.org",0.000420443361660936
+"US","New Mexico","clovis / portales","http://clovis.craigslist.org",0.000420443361660936
+"US","New Mexico","farmington","http://farmington.craigslist.org",0.000420443361660936
+"US","New Mexico","las cruces","http://lascruces.craigslist.org",0.000420443361660936
+"US","New Mexico","roswell / carlsbad","http://roswell.craigslist.org",0.000420443361660936
+"US","New Mexico","santa fe / taos","http://santafe.craigslist.org",0.000420443361660936
+"US","New York","albany","http://albany.craigslist.org",0.00396213369972862
+"US","New York","binghamton","http://binghamton.craigslist.org",0.00396213369972862
+"US","New York","buffalo","http://buffalo.craigslist.org",0.00396213369972862
+"US","New York","catskills","http://catskills.craigslist.org",0.00396213369972862
+"US","New York","chautauqua","http://chautauqua.craigslist.org",0.00396213369972862
+"US","New York","elmira-corning","http://elmira.craigslist.org",0.00396213369972862
+"US","New York","finger lakes","http://fingerlakes.craigslist.org",0.00396213369972862
+"US","New York","glens falls","http://glensfalls.craigslist.org",0.00396213369972862
+"US","New York","hudson valley","http://hudsonvalley.craigslist.org",0.00396213369972862
+"US","New York","ithaca","http://ithaca.craigslist.org",0.00396213369972862
+"US","New York","long island","http://longisland.craigslist.org",0.00396213369972862
+"US","New York","new york city","http://newyork.craigslist.org",0.00396213369972862
+"US","New York","oneonta","http://oneonta.craigslist.org",0.00396213369972862
+"US","New York","plattsburgh-adirondacks","http://plattsburgh.craigslist.org",0.00396213369972862
+"US","New York","potsdam-canton-massena","http://potsdam.craigslist.org",0.00396213369972862
+"US","New York","rochester","http://rochester.craigslist.org",0.00396213369972862
+"US","New York","syracuse","http://syracuse.craigslist.org",0.00396213369972862
+"US","New York","twin tiers NY/PA","http://twintiers.craigslist.org",0.00396213369972862
+"US","New York","utica-rome-oneida","http://utica.craigslist.org",0.00396213369972862
+"US","New York","watertown","http://watertown.craigslist.org",0.00396213369972862
+"US","North Carolina","asheville","http://asheville.craigslist.org",0.00198560267830692
+"US","North Carolina","boone","http://boone.craigslist.org",0.00198560267830692
+"US","North Carolina","charlotte","http://charlotte.craigslist.org",0.00198560267830692
+"US","North Carolina","eastern NC","http://eastnc.craigslist.org",0.00198560267830692
+"US","North Carolina","fayetteville","http://fayetteville.craigslist.org",0.00198560267830692
+"US","North Carolina","greensboro","http://greensboro.craigslist.org",0.00198560267830692
+"US","North Carolina","hickory / lenoir","http://hickory.craigslist.org",0.00198560267830692
+"US","North Carolina","jacksonville ","http://onslow.craigslist.org",0.00198560267830692
+"US","North Carolina","outer banks","http://outerbanks.craigslist.org",0.00198560267830692
+"US","North Carolina","raleigh / durham / CH","http://raleigh.craigslist.org",0.00198560267830692
+"US","North Carolina","wilmington","http://wilmington.craigslist.org",0.00198560267830692
+"US","North Carolina","winston-salem","http://winstonsalem.craigslist.org",0.00198560267830692
+"US","North Dakota","bismarck","http://bismarck.craigslist.org",0.00014585320136844
+"US","North Dakota","fargo / moorhead","http://fargo.craigslist.org",0.00014585320136844
+"US","North Dakota","grand forks","http://grandforks.craigslist.org",0.00014585320136844
+"US","North Dakota","north dakota","http://nd.craigslist.org",0.00014585320136844
+"US","Ohio","akron / canton","http://akroncanton.craigslist.org",0.0023329495712836
+"US","Ohio","ashtabula","http://ashtabula.craigslist.org",0.0023329495712836
+"US","Ohio","athens ","http://athensohio.craigslist.org",0.0023329495712836
+"US","Ohio","chillicothe","http://chillicothe.craigslist.org",0.0023329495712836
+"US","Ohio","cincinnati","http://cincinnati.craigslist.org",0.0023329495712836
+"US","Ohio","cleveland","http://cleveland.craigslist.org",0.0023329495712836
+"US","Ohio","columbus","http://columbus.craigslist.org",0.0023329495712836
+"US","Ohio","dayton / springfield","http://dayton.craigslist.org",0.0023329495712836
+"US","Ohio","lima / findlay","http://limaohio.craigslist.org",0.0023329495712836
+"US","Ohio","mansfield","http://mansfield.craigslist.org",0.0023329495712836
+"US","Ohio","sandusky","http://sandusky.craigslist.org",0.0023329495712836
+"US","Ohio","toledo","http://toledo.craigslist.org",0.0023329495712836
+"US","Ohio","tuscarawas co","http://tuscarawas.craigslist.org",0.0023329495712836
+"US","Ohio","youngstown","http://youngstown.craigslist.org",0.0023329495712836
+"US","Ohio","zanesville / cambridge","http://zanesville.craigslist.org",0.0023329495712836
+"US","Oklahoma","lawton","http://lawton.craigslist.org",0.00077636591712509
+"US","Oklahoma","northwest OK","http://enid.craigslist.org",0.00077636591712509
+"US","Oklahoma","oklahoma city","http://oklahomacity.craigslist.org",0.00077636591712509
+"US","Oklahoma","stillwater","http://stillwater.craigslist.org",0.00077636591712509
+"US","Oklahoma","tulsa","http://tulsa.craigslist.org",0.00077636591712509
+"US","Oregon","bend","http://bend.craigslist.org",0.000792394399498001
+"US","Oregon","corvallis/albany","http://corvallis.craigslist.org",0.000792394399498001
+"US","Oregon","east oregon","http://eastoregon.craigslist.org",0.000792394399498001
+"US","Oregon","eugene","http://eugene.craigslist.org",0.000792394399498001
+"US","Oregon","klamath falls","http://klamath.craigslist.org",0.000792394399498001
+"US","Oregon","medford-ashland","http://medford.craigslist.org",0.000792394399498001
+"US","Oregon","oregon coast","http://oregoncoast.craigslist.org",0.000792394399498001
+"US","Oregon","portland","http://portland.craigslist.org",0.000792394399498001
+"US","Oregon","roseburg","http://roseburg.craigslist.org",0.000792394399498001
+"US","Oregon","salem","http://salem.craigslist.org",0.000792394399498001
+"US","Pennsylvania","altoona-johnstown","http://altoona.craigslist.org",0.00257550151783799
+"US","Pennsylvania","cumberland valley","http://chambersburg.craigslist.org",0.00257550151783799
+"US","Pennsylvania","erie","http://erie.craigslist.org",0.00257550151783799
+"US","Pennsylvania","harrisburg","http://harrisburg.craigslist.org",0.00257550151783799
+"US","Pennsylvania","lancaster","http://lancaster.craigslist.org",0.00257550151783799
+"US","Pennsylvania","lehigh valley","http://allentown.craigslist.org",0.00257550151783799
+"US","Pennsylvania","meadville","http://meadville.craigslist.org",0.00257550151783799
+"US","Pennsylvania","philadelphia","http://philadelphia.craigslist.org",0.00257550151783799
+"US","Pennsylvania","pittsburgh","http://pittsburgh.craigslist.org",0.00257550151783799
+"US","Pennsylvania","poconos","http://poconos.craigslist.org",0.00257550151783799
+"US","Pennsylvania","reading","http://reading.craigslist.org",0.00257550151783799
+"US","Pennsylvania","scranton / wilkes-barre","http://scranton.craigslist.org",0.00257550151783799
+"US","Pennsylvania","state college","http://pennstate.craigslist.org",0.00257550151783799
+"US","Pennsylvania","williamsport","http://williamsport.craigslist.org",0.00257550151783799
+"US","Pennsylvania","york","http://york.craigslist.org",0.00257550151783799
+"US","Rhode Island","rhode island","http://providence.craigslist.org",0.00021200957933534
+"US","South Carolina","charleston","http://charleston.craigslist.org",0.00096272089192027
+"US","South Carolina","columbia","http://columbia.craigslist.org",0.00096272089192027
+"US","South Carolina","florence","http://florencesc.craigslist.org",0.00096272089192027
+"US","South Carolina","greenville / upstate","http://greenville.craigslist.org",0.00096272089192027
+"US","South Carolina","hilton head","http://hiltonhead.craigslist.org",0.00096272089192027
+"US","South Carolina","myrtle beach","http://myrtlebeach.craigslist.org",0.00096272089192027
+"US","South Dakota","northeast SD","http://nesd.craigslist.org",0.000170347259667378
+"US","South Dakota","pierre / central SD","http://csd.craigslist.org",0.000170347259667378
+"US","South Dakota","rapid city / west SD","http://rapidcity.craigslist.org",0.000170347259667378
+"US","South Dakota","sioux falls / SE SD","http://siouxfalls.craigslist.org",0.000170347259667378
+"US","South Dakota","south dakota","http://sd.craigslist.org",0.000170347259667378
+"US","Tennessee","chattanooga","http://chattanooga.craigslist.org",0.00130974337230102
+"US","Tennessee","clarksville","http://clarksville.craigslist.org",0.00130974337230102
+"US","Tennessee","cookeville","http://cookeville.craigslist.org",0.00130974337230102
+"US","Tennessee","jackson  ","http://jacksontn.craigslist.org",0.00130974337230102
+"US","Tennessee","knoxville","http://knoxville.craigslist.org",0.00130974337230102
+"US","Tennessee","memphis","http://memphis.craigslist.org",0.00130974337230102
+"US","Tennessee","nashville","http://nashville.craigslist.org",0.00130974337230102
+"US","Tennessee","tri-cities","http://tricities.craigslist.org",0.00130974337230102
+"US","Texas","abilene","http://abilene.craigslist.org",0.00533258356033354
+"US","Texas","amarillo","http://amarillo.craigslist.org",0.00533258356033354
+"US","Texas","austin","http://austin.craigslist.org",0.00533258356033354
+"US","Texas","beaumont / port arthur","http://beaumont.craigslist.org",0.00533258356033354
+"US","Texas","brownsville","http://brownsville.craigslist.org",0.00533258356033354
+"US","Texas","college station","http://collegestation.craigslist.org",0.00533258356033354
+"US","Texas","corpus christi","http://corpuschristi.craigslist.org",0.00533258356033354
+"US","Texas","dallas / fort worth","http://dallas.craigslist.org",0.00533258356033354
+"US","Texas","deep east texas","http://nacogdoches.craigslist.org",0.00533258356033354
+"US","Texas","del rio / eagle pass","http://delrio.craigslist.org",0.00533258356033354
+"US","Texas","el paso","http://elpaso.craigslist.org",0.00533258356033354
+"US","Texas","galveston","http://galveston.craigslist.org",0.00533258356033354
+"US","Texas","houston","http://houston.craigslist.org",0.00533258356033354
+"US","Texas","killeen / temple / ft hood","http://killeen.craigslist.org",0.00533258356033354
+"US","Texas","laredo","http://laredo.craigslist.org",0.00533258356033354
+"US","Texas","lubbock","http://lubbock.craigslist.org",0.00533258356033354
+"US","Texas","mcallen / edinburg","http://mcallen.craigslist.org",0.00533258356033354
+"US","Texas","odessa / midland","http://odessa.craigslist.org",0.00533258356033354
+"US","Texas","san angelo","http://sanangelo.craigslist.org",0.00533258356033354
+"US","Texas","san antonio","http://sanantonio.craigslist.org",0.00533258356033354
+"US","Texas","san marcos","http://sanmarcos.craigslist.org",0.00533258356033354
+"US","Texas","southwest TX","http://bigbend.craigslist.org",0.00533258356033354
+"US","Texas","texoma","http://texoma.craigslist.org",0.00533258356033354
+"US","Texas","tyler / east TX","http://easttexas.craigslist.org",0.00533258356033354
+"US","Texas","victoria ","http://victoriatx.craigslist.org",0.00533258356033354
+"US","Texas","waco","http://waco.craigslist.org",0.00533258356033354
+"US","Texas","wichita falls","http://wichitafalls.craigslist.org",0.00533258356033354
+"US","Utah","logan","http://logan.craigslist.org",0.000584884658767874
+"US","Utah","ogden-clearfield","http://ogden.craigslist.org",0.000584884658767874
+"US","Utah","provo / orem","http://provo.craigslist.org",0.000584884658767874
+"US","Utah","salt lake city","http://saltlakecity.craigslist.org",0.000584884658767874
+"US","Utah","st george","http://stgeorge.craigslist.org",0.000584884658767874
+"US","Vermont","vermont","http://burlington.craigslist.org",0.000126343483519339
+"US","Virginia","charlottesville","http://charlottesville.craigslist.org",0.00166549374109214
+"US","Virginia","danville","http://danville.craigslist.org",0.00166549374109214
+"US","Virginia","fredericksburg","http://fredericksburg.craigslist.org",0.00166549374109214
+"US","Virginia","hampton roads","http://norfolk.craigslist.org",0.00166549374109214
+"US","Virginia","harrisonburg","http://harrisonburg.craigslist.org",0.00166549374109214
+"US","Virginia","lynchburg","http://lynchburg.craigslist.org",0.00166549374109214
+"US","Virginia","new river valley","http://blacksburg.craigslist.org",0.00166549374109214
+"US","Virginia","richmond","http://richmond.craigslist.org",0.00166549374109214
+"US","Virginia","roanoke","http://roanoke.craigslist.org",0.00166549374109214
+"US","Virginia","southwest VA","http://swva.craigslist.org",0.00166549374109214
+"US","Virginia","winchester","http://winchester.craigslist.org",0.00166549374109214
+"US","Washington","bellingham","http://bellingham.craigslist.org",0.00140560094324821
+"US","Washington","kennewick-pasco-richland","http://kpr.craigslist.org",0.00140560094324821
+"US","Washington","moses lake","http://moseslake.craigslist.org",0.00140560094324821
+"US","Washington","olympic peninsula","http://olympic.craigslist.org",0.00140560094324821
+"US","Washington","pullman / moscow","http://pullman.craigslist.org",0.00140560094324821
+"US","Washington","seattle-tacoma","http://seattle.craigslist.org",0.00140560094324821
+"US","Washington","skagit / island / SJI","http://skagit.craigslist.org",0.00140560094324821
+"US","Washington","spokane / coeur d'alene","http://spokane.craigslist.org",0.00140560094324821
+"US","Washington","wenatchee","http://wenatchee.craigslist.org",0.00140560094324821
+"US","Washington","yakima","http://yakima.craigslist.org",0.00140560094324821
+"US","West Virginia","charleston ","http://charlestonwv.craigslist.org",0.000373871705574015
+"US","West Virginia","eastern panhandle","http://martinsburg.craigslist.org",0.000373871705574015
+"US","West Virginia","huntington-ashland","http://huntington.craigslist.org",0.000373871705574015
+"US","West Virginia","morgantown","http://morgantown.craigslist.org",0.000373871705574015
+"US","West Virginia","northern panhandle","http://wheeling.craigslist.org",0.000373871705574015
+"US","West Virginia","parkersburg-marietta","http://parkersburg.craigslist.org",0.000373871705574015
+"US","West Virginia","southern WV","http://swv.craigslist.org",0.000373871705574015
+"US","West Virginia","west virginia (old)","http://wv.craigslist.org",0.000373871705574015
+"US","Wisconsin","appleton-oshkosh-FDL","http://appleton.craigslist.org",0.00115786726660357
+"US","Wisconsin","eau claire","http://eauclaire.craigslist.org",0.00115786726660357
+"US","Wisconsin","green bay","http://greenbay.craigslist.org",0.00115786726660357
+"US","Wisconsin","janesville","http://janesville.craigslist.org",0.00115786726660357
+"US","Wisconsin","kenosha-racine","http://racine.craigslist.org",0.00115786726660357
+"US","Wisconsin","la crosse","http://lacrosse.craigslist.org",0.00115786726660357
+"US","Wisconsin","madison","http://madison.craigslist.org",0.00115786726660357
+"US","Wisconsin","milwaukee","http://milwaukee.craigslist.org",0.00115786726660357
+"US","Wisconsin","northern WI","http://northernwi.craigslist.org",0.00115786726660357
+"US","Wisconsin","sheboygan","http://sheboygan.craigslist.org",0.00115786726660357
+"US","Wisconsin","wausau","http://wausau.craigslist.org",0.00115786726660357
+"US","Wyoming","wyoming","http://wyoming.craigslist.org",0.000117477684471556
+"US","Territories","guam-micronesia","http://micronesia.craigslist.org",7.15567143619653e-05
+"US","Territories","puerto rico","http://puertorico.craigslist.org",7.15567143619653e-05
+"US","Territories","U.S. virgin islands","http://virgin.craigslist.org",7.15567143619653e-05
+"CA","Alberta","calgary","http://calgary.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","edmonton","http://edmonton.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","ft mcmurray","http://ftmcmurray.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","lethbridge","http://lethbridge.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","medicine hat","http://hat.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","peace river country","http://peace.en.craigslist.ca",0.000811550469309036
+"CA","Alberta","red deer","http://reddeer.en.craigslist.ca",0.000811550469309036
+"CA","British Columbia","cariboo","http://cariboo.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","comox valley","http://comoxvalley.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","fraser valley","http://abbotsford.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","kamloops","http://kamloops.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","kelowna / okanagan","http://kelowna.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","kootenays","http://cranbrook.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","nanaimo","http://nanaimo.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","prince george","http://princegeorge.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","skeena-bulkley","http://skeena.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","sunshine coast","http://sunshine.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","vancouver","http://vancouver.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","victoria","http://victoria.en.craigslist.ca",0.000923835536008451
+"CA","British Columbia","whistler","http://whistler.en.craigslist.ca",0.000923835536008451
+"CA","Manitoba","winnipeg","http://winnipeg.en.craigslist.ca",0.000255057054089681
+"CA","New Brunswick","new brunswick","http://newbrunswick.en.craigslist.ca",0.000152437627810345
+"CA","Newfoundland and Labrador","st john's","http://newfoundland.en.craigslist.ca",0.000106195626536558
+"CA","Northwest Territories","territories","http://territories.en.craigslist.ca",8.77809272135307e-06
+"CA","Northwest Territories","yellowknife","http://yellowknife.en.craigslist.ca",8.77809272135307e-06
+"CA","Nova Scotia","halifax","http://halifax.en.craigslist.ca",0.000189685395714657
+"CA","Ontario","barrie","http://barrie.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","belleville","http://belleville.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","brantford-woodstock","http://brantford.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","chatham-kent","http://chatham.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","cornwall","http://cornwall.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","guelph","http://guelph.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","hamilton-burlington","http://hamilton.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","kingston","http://kingston.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","kitchener-waterloo-cambridge","http://kitchener.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","london ","http://londonon.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","niagara region","http://niagara.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","ottawa-hull-gatineau","http://ottawa.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","owen sound","http://owensound.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","peterborough","http://peterborough.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","sarnia","http://sarnia.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","sault ste marie","http://soo.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","sudbury","http://sudbury.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","thunder bay","http://thunderbay.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","toronto","http://toronto.en.craigslist.ca",0.00272958096775436
+"CA","Ontario","windsor","http://windsor.en.craigslist.ca",0.00272958096775436
+"CA","Prince Edward Island","prince edward island","http://pei.en.craigslist.ca",2.92832269695008e-05
+"CA","Quebec","montreal","http://montreal.en.craigslist.ca",0.00164430893322009
+"CA","Quebec","quebec city","http://quebec.en.craigslist.ca",0.00164430893322009
+"CA","Quebec","saguenay","http://saguenay.en.craigslist.ca",0.00164430893322009
+"CA","Quebec","sherbrooke","http://sherbrooke.en.craigslist.ca",0.00164430893322009
+"CA","Quebec","trois-rivieres","http://troisrivieres.en.craigslist.ca",0.00164430893322009
+"CA","Saskatchewan","regina","http://regina.en.craigslist.ca",0.000223460194716075
+"CA","Saskatchewan","saskatoon","http://saskatoon.en.craigslist.ca",0.000223460194716075
+"CA","Yukon Territory","whitehorse","http://whitehorse.en.craigslist.ca",7.15567143619653e-05

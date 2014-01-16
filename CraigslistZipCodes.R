@@ -3,23 +3,10 @@ library(mapdata)
 library(maptools)
 gpclibPermit()
 library(plyr)
-library(multicore)
-library(doSNOW)
+library(doMC)
+registerDoMC(8)
 library(fastshp) # install with install.packages('fastshp',repos='http://www.rforge.net/')
 
-createCluster = function(noCores, logfile = "/dev/null", export = NULL, lib = NULL) {
-  require(doSNOW)
-  cl <- makeCluster(noCores, type = "SOCK", outfile = logfile)
-  if(!is.null(export)) clusterExport(cl, export)
-  if(!is.null(lib)) {
-    l_ply(lib, function(dum) { 
-      clusterExport(cl, "dum", envir = environment())
-      clusterEvalQ(cl, library(dum, character.only = TRUE))
-    })
-  }
-  registerDoSNOW(cl)
-  return(cl)
-}
 
 zipcl <- read.table("./LookupCraigsZip2010.txt", header=TRUE)
 zipcl$zip <- (gsub("Zip", "", zipcl$ZipName, fixed=TRUE))
@@ -53,8 +40,6 @@ sub <- subset(otherdat, craigslist==otherdat$craigslist[1])
 temp <- unionSpatialPolygons(SpatialPolygons(curves[sub$id]), sub$id)
 
 # create cluster
-cl <- createCluster(12)
-
 # function
 plyfcn <- function(df, curves=curves){
   library(maps)
@@ -86,14 +71,14 @@ plyfcn <- function(df, curves=curves){
   }
   coordList <- as.data.frame(coordList)
   names(coordList) <- c("x", "y", "group", "len")
+  coordList <- coordList[chull(coordList$x, coordList$y),]
   n <- nrow(coordList)
   coordList <- cbind(coordList, df2)
   coordList
 }
 
-clpolydf <- ddply(otherdat, .(craigslist), plyfcn, curves=curves, .parallel=TRUE)
-stopCluster(cl)
-
+CraigslistShapes <- ddply(otherdat, .(craigslist), plyfcn, curves=curves, .parallel=TRUE)
+save(CraigslistShapes, file="CLShapes.RData")
 library(ggplot2)
-qplot(data=clpolydf, x=x, y=y, group=group, geom="polygon", fill=craigslist) + xlim(c(-100, -90)) + ylim(c(35,45))
-qplot(data=subset(clpolydf, craigslist=="http://omaha.craigslist.org/"), x=x, y=y, group=group, geom="polygon", fill=craigslist)
+qplot(data=CraigslistShapes, x=x, y=y, group=group, geom="polygon", fill=craigslist) + xlim(c(-100, -90)) + ylim(c(35,45))
+qplot(data=subset(CraigslistShapes, craigslist=="http://omaha.craigslist.org/"), x=x, y=y, group=group, geom="polygon", fill=craigslist)

@@ -11,7 +11,7 @@ dbDisconnect(con)
 
 posts <- cl
 names(posts) <- gsub("_", ".", names(posts), fixed=TRUE)
-
+posts <- subset(posts, subcl=="ppp")
 
 library(lubridate)
 library(stringr)
@@ -31,7 +31,7 @@ qplot(posts$post.subcltype) + theme(axis.text.x=element_text(angle=90))
 
 qplot(posts$post.time)
 
-qplot(wday(posts$post.date2, label=TRUE, abbr=TRUE))
+qplot(wday(posts$post.date2, label=TRUE, abbr=TRUE)) + xlab("Day Posted")
 
 
 # Map of lower 48 Craigslist proximity regions

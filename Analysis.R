@@ -1,9 +1,10 @@
 library(RMySQL)
 
 setwd("/home/susan/Documents/R Projects/Craigslist/")
-source("./SamplePosts.R")
 library(doMC)
 registerDoMC(8)
+
+# Get updated CL Information
 con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
 cl <- dbReadTable(con, "craigslist", row.names=0)
 cl <- cl[!is.na(cl$post_id),-1]
@@ -13,6 +14,10 @@ posts <- cl
 names(posts) <- gsub("_", ".", names(posts), fixed=TRUE)
 posts <- subset(posts, subcl=="ppp")
 
+# Write to CSV for github replication
+write.csv(posts, "PersonalAdsPost.csv")
+
+posts <- read.csv("PersonalAdsPost.csv")
 library(lubridate)
 library(stringr)
 # strip timezone information
@@ -63,7 +68,12 @@ myCorpus <- tm_map(myCorpus, removePunctuation)
 myCorpus <- tm_map(myCorpus, removeNumbers)
 myStopwords <- stopwords('english')
 myCorpus <- tm_map(myCorpus, removeWords, myStopwords)
-dict <- Dictionary(unlist(lapply(posts$post.text2, strsplit, " ")))
+dict <- unlist(lapply(tolower(posts$post.text2), strsplit, " "))
+dict.table <- table(dict)
+dict.table <- dict.table[order(dict.table, decreasing=TRUE)]
+# Most common words: 
+dict.table[1:100]
+
 #myCorpus <- tm_map(myCorpus, stemDocument)
 #myCorpus2 <- tm_map(myCorpus, stemCompletion, dictionary=dict, type="shortest")
 myDtm <- TermDocumentMatrix(myCorpus, control = list(wordLengths = c(2, Inf)))
@@ -75,5 +85,10 @@ findAssocs(myDtm, "married", .1)
 findAssocs(myDtm, "nsa", .075)
 findAssocs(myDtm, "lbs", .1)
 findAssocs(myDtm, "thick", .1)
-myDtm2 <- myDtm
-removeSparse
+findAssocs(myDtm, "bathe", .1) # wtf... bathe shows up under "nsa"?? 
+# no strings attached, but you must have bathed recently?
+findAssocs(myDtm, "investments", .1)
+findAssocs(myDtm, "man", .1)
+
+
+

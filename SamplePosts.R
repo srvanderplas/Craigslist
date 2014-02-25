@@ -1,6 +1,6 @@
 library(scrapeR)
 library(doMC)
-registerDoMC(15)
+registerDoMC()
 library(plyr)
 library(stringr)
 library(RMySQL)
@@ -26,8 +26,6 @@ SamplePosts <- function(N=10, subcl="ppp"){
                   # only save rows with at least a post id
                   a <- a[which(!is.na(a$post.id)),]
                   if(nrow(a)==0 || ncol(a)==0) return(data.frame())
-                  
-                  #                   a <- rbind.fill(null.df, a)
                   rownames(a) <- NULL
                   if(is.data.frame(a)){
                     return(a)

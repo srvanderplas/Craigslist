@@ -5,8 +5,8 @@
 setwd("/home/susan/Documents/R Projects/Craigslist/")
 
 source("./SamplePosts.R")
-library(doMC)
-registerDoMC(15)
+# library(doMC)
+# registerDoMC(15)
 
 temp <- SamplePosts(N=30)
 

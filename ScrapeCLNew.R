@@ -8,7 +8,7 @@ source("./SamplePosts.R")
 # library(doMC)
 # registerDoMC(15)
 
-temp <- SamplePosts(N=30)
+temp <- SamplePosts(N=15)
 
 con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
 cl <- dbReadTable(con, "craigslist", row.names=0)
@@ -19,3 +19,6 @@ dim(cl)
 cl <- as.data.frame(apply(cl, 2, dbEscapeStrings, con=con),stringsAsFactors=FALSE)
 dbWriteTable(conn=con, name="craigslist", value=cl, append=FALSE, overwrite=TRUE)
 dbDisconnect(con)
+
+rm(cl)
+gc()

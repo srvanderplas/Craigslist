@@ -32,7 +32,7 @@ SamplePosts <- function(N=10, subcl="ppp"){
                   } else return(data.frame())
                 }, .parallel=TRUE)
   if(nrow(temp)==0 || ncol(temp)==0){
-    print("warning: empty data frame")
+    warning("empty data frame")
     return(data.frame())
   }
   temp <- as.data.frame(apply(temp, 2, as.character), stringsAsFactors=FALSE)

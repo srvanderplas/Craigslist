@@ -63,9 +63,11 @@ posts$post.text2 <- str_replace_all(posts$post.text2, "[[:punct:]]", " ")
 posts$post.text2 <- str_replace_all(posts$post.text2, "\\n", " ")
 
 myCorpus <- Corpus(VectorSource(posts$post.text2))
-myCorpus <- tm_map(myCorpus, tolower)
-myCorpus <- tm_map(myCorpus, removePunctuation)
-myCorpus <- tm_map(myCorpus, removeNumbers)
+
+tdm <- DocumentTermMatrix(myCorpus, list(removePunctuation=TRUE, stopwords=TRUE, bounds=c(2, Inf)))
+myCorpus <- tm_map(myCorpus, content_transformer(tolower))
+myCorpus <- tm_map(myCorpus, content_transformer(removePunctuation))
+myCorpus <- tm_map(myCorpus, content_transformer(removeNumbers))
 myStopwords <- stopwords('english')
 myCorpus <- tm_map(myCorpus, removeWords, myStopwords)
 dict <- unlist(lapply(tolower(posts$post.text2), strsplit, " "))
@@ -74,7 +76,7 @@ dict.table <- dict.table[order(dict.table, decreasing=TRUE)]
 # Most common words: 
 dict.table[1:100]
 
-#myCorpus <- tm_map(myCorpus, stemDocument)
+# myCorpus <- tm_map(myCorpus, stemDocument)
 #myCorpus2 <- tm_map(myCorpus, stemCompletion, dictionary=dict, type="shortest")
 myDtm <- TermDocumentMatrix(myCorpus, control = list(wordLengths = c(2, Inf)))
 findFreqTerms(myDtm, lowfreq=500)

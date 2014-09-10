@@ -7,6 +7,7 @@ library(doMC)
 registerDoMC(8)
 library(fastshp) # install with install.packages('fastshp',repos='http://www.rforge.net/')
 
+setwd("~/Documents/Rprojects/Craigslist")
 
 zipcl <- read.table("./LookupCraigsZip2010.txt", header=TRUE)
 zipcl$zip <- (gsub("Zip", "", zipcl$ZipName, fixed=TRUE))
@@ -41,12 +42,13 @@ temp <- unionSpatialPolygons(SpatialPolygons(curves[sub$id]), sub$id)
 
 # create cluster
 # function
+
+library(maps)
+library(mapdata)
+library(maptools)
+gpclibPermit()
+library(fastshp) 
 plyfcn <- function(df, curves=curves){
-  library(maps)
-  library(mapdata)
-  library(maptools)
-  gpclibPermit()
-  library(fastshp) 
   temp <- unionSpatialPolygons(SpatialPolygons(curves[df$id]), df$id)
   pop <- sum(df$pop)
   malepop <- sum(df$malepop)
@@ -63,7 +65,7 @@ plyfcn <- function(df, curves=curves){
     res <- as.data.frame(res)
     names(res) <- c("x", "y")
     if(nrow(res)>1000){
-      res.thin <- thin(res$x, res$y, 1e-1)
+      res.thin <- thin(res$x, res$y, 1e-2)
       res <- res[res.thin,]
     }
     tlen <- nrow(res)

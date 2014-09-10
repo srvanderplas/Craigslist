@@ -19,7 +19,7 @@ null.df <- data.frame(cityurl=NA, subcl=NA, post.id=NA, post.link=NA, post.data.
 
 SamplePosts <- function(N=10, subcl="ppp"){
   samplecities <- sample(1:nrow(craigslistURLs), N, replace=FALSE, prob=craigslistURLs$weight)
-  temp <- ldply(craigslistURLs$link[samplecities], 
+  temp <- mclapply(craigslistURLs$link[samplecities], 
                 function(i) {              
                   a <- try(getCityPosts(i, subcl))
                   if(mode(a)=="character") return(data.frame())
@@ -30,7 +30,10 @@ SamplePosts <- function(N=10, subcl="ppp"){
                   if(is.data.frame(a)){
                     return(a)
                   } else return(data.frame())
-                }, .parallel=TRUE)
+                })
+  if(length(temp)>0){
+    temp <- do.call("rbind.fill", temp)
+  }
   if(nrow(temp)==0 || ncol(temp)==0){
     warning("empty data frame")
     return(data.frame())
@@ -42,10 +45,10 @@ SamplePosts <- function(N=10, subcl="ppp"){
   temp <- temp[,order(as.numeric(sapply(cn, function(i) which(i==col.order))))]
   names(temp) <- gsub(".", "_", names(temp), fixed=TRUE)
   
-  con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
-  temp <- as.data.frame(apply(temp, 2, dbEscapeStrings, con=con),stringsAsFactors=FALSE)
-  success <- as.numeric(dbWriteTable(con, "craigslist", temp, append=TRUE, row.names=0))
-  dbDisconnect(con)
-  print(success)
+#   con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
+#   temp <- as.data.frame(apply(temp, 2, dbEscapeStrings, con=con),stringsAsFactors=FALSE)
+#   success <- as.numeric(dbWriteTable(con, "craigslist", temp, append=TRUE, row.names=0))
+#   dbDisconnect(con)
+#   print(success)
   return(temp)
 }

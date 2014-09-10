@@ -63,36 +63,50 @@ getCityPosts <- cmpfun(function(cityurl, subcl="ppp"){
     kids <- xmlChildren(i)
     
     # Of the span nodes, the first is "star", the second actually has the post title info
-    title <- xmlChildren(kids[[which(nodenames=="span")[2]]])
+    title <- xmlChildren(kids[[which(nodenames=="span")]])
     title <- title[which(lapply( title, xmlName)!="text")]
+    postinfo <- xmlChildren(title[[3]])
+    postinfo <- postinfo[which(lapply(postinfo, xmlName)!="text")]
+    title <- xmlChildren(title[[2]])
+    title <- title[which(lapply( title, xmlName)!="text")]
+    
+    date <- xmlValue(title$span)
+    post.title <- xmlValue(title$a)
+    post.id <- xmlAttrs(title$a)[['data-id']]
     
     # Link information
     linkinfo <- xmlAttrs(kids[[which(nodenames=="a")]])
     
     # The third span node has the post information
-    postinfo <- xmlChildren(kids[[which(nodenames=="span")[3]]])
-    postinfo <- postinfo[which(lapply( postinfo, xmlName)!="text")]
+    values <- lapply(postinfo, xmlAttrs)
+    values <- paste(names(values), lapply(values, paste, collapse="."), sep="-")
+    price <- ifelse("span-price"%in%values, xmlValue(postinfo[values=="span-price"]$span), NA)
+    pnr <- ifelse("span-pnr"%in%values, str_trim(str_extract(xmlValue(postinfo[values=="span-pnr"]$span), "^.*\\(.*)")), NA)
+    cat.abbrev <- ifelse(sum(grepl("a-gc", values))>0, rev(xmlAttrs(postinfo[which(grepl("a-gc", values))]$a))[1], NA)
+    post.link <- xmlAttrs(title$a)[["href"]]
     
-    # What type of post information? 
-    postinfo.class <- lapply(postinfo, xmlAttrs)
+    postinfo <- unlist(postinfo[which(names(postinfo)!="span.text")])
+    postinfo <- postinfo[names(postinfo)!="text"]
     
-    # Price (or age in personal ads) may or may not be included
-    price <- ifelse("price"%in%postinfo.class, xmlValue(postinfo[[which(postinfo.class=="price")]]), NA)
+    post.title.2 <- str_trim(word(post.title, sep="-"))
+    post.type <- str_trim(word(post.title, sep="-", start=-1))
+    if(post.title.2==post.type){
+      post.type <- NA
+    }
     
-    # Location is in parentheses
-    loc <- str_trim(str_extract(xmlValue(postinfo[[which(postinfo.class=="pnr")]]), "^.*\\(.*)"))
-    
+    post.dataid <- try(as.character(xmlAttrs(i)["data-pid"]))
     # Combine into a data frame
     data.frame(
-      post.id = as.character(xmlAttrs(i)["data-pid"]),
-      post.link = as.character(linkinfo["href"]),
-      post.data.id = as.character(linkinfo["data-id"]),
-      post.date.raw = str_replace(xmlValue(title[[1]]), "  ", " "),
-      post.title = str_trim(word(xmlValue(title[[2]]), sep="-")),
+      post.id = post.id,
+      post.link = post.link,
+      post.data.id = post.dataid,
+      post.date.raw = str_replace(date, "  ", " "),
+      post.title = post.title.2,
+      post.type = post.type,
       post.price = price,
-      post.subcl = as.character(xmlAttrs(rev(postinfo)[[1]])["data-cat"]),
+      post.subcl = as.character(cat.abbrev),
       post.subcltype = xmlValue(rev(postinfo)[[1]]),
-      post.loc = str_trim(str_replace(str_replace(loc, "\\(", ""), "\\)", "")), 
+      post.loc = str_trim(str_replace(str_replace(pnr, "\\(", ""), "\\)", "")), 
       stringsAsFactors=FALSE
     )
   })
@@ -104,7 +118,14 @@ getCityPosts <- cmpfun(function(cityurl, subcl="ppp"){
   idx <- c(1:nrow(linkdata), rep(NA, times=(300-nrow(linkdata))))
   tmp <- matrix(idx, nrow=10, byrow=TRUE)
   
-  postdata <- do.call("rbind.fill", lapply(1:nrow(tmp), function(i) parsePosts(linkdata$post.link[tmp[i,][which(!is.na(tmp[i,]))]])))
+  postdata <- do.call("rbind.fill", 
+                      lapply(1:nrow(tmp), 
+                             function(i) 
+                               parsePosts(linkdata$post.link[tmp[i,][which(!is.na(tmp[i,]))]])
+                             )
+                      )
+  
+  
   if(!is.character(postdata)  & "post.id"%in%names(postdata)) {
     # Return a data frame
     df <- merge(linkdata, postdata, stringsAsFactors=FALSE)

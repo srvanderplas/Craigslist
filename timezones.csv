@@ -1,0 +1,193 @@
+"","Abbr.","Name","UTC offset","trunc","offset"
+"1","ACDT","Australian Central Daylight Time","UTC+10:30","ACD",10.5
+"2","ACST","Australian Central Standard Time","UTC+09:30","ACS",9.5
+"3","ACT","ASEAN Common Time","UTC+08","ACT",8
+"4","ADT","Atlantic Daylight Time","UTC−03","ADT",-3
+"5","AEDT","Australian Eastern Daylight Time","UTC+11","AED",11
+"6","AEST","Australian Eastern Standard Time","UTC+10","AES",10
+"7","AFT","Afghanistan Time","UTC+04:30","AFT",4.5
+"8","AKDT","Alaska Daylight Time","UTC−08","AKD",-8
+"9","AKST","Alaska Standard Time","UTC−09","AKS",-9
+"10","AMST","Armenia Summer Time","UTC+05","AMS",5
+"11","AMT","Armenia Time","UTC+04","AMT",4
+"12","ART","Argentina Time","UTC−03","ART",-3
+"13","AST","Arabia Standard Time","UTC+03","AST",3
+"14","AST","Atlantic Standard Time","UTC−04","AST",-4
+"15","AWDT","Australian Western Daylight Time","UTC+09","AWD",9
+"16","AWST","Australian Western Standard Time","UTC+08","AWS",8
+"17","AZOST","Azores Standard Time","UTC−01","AZO",-1
+"18","AZT","Azerbaijan Time","UTC+04","AZT",4
+"19","BDT","Brunei Time","UTC+08","BDT",8
+"20","BIOT","British Indian Ocean Time","UTC+06","BIO",6
+"21","BIT","Baker Island Time","UTC−12","BIT",-12
+"22","BOT","Bolivia Time","UTC−04","BOT",-4
+"23","BRT","Brasilia Time","UTC−03","BRT",-3
+"24","BST","Bangladesh Standard Time","UTC+06","BST",6
+"25","BST","British Summer Time (British Standard Time from Feb 1968 to Oct 1971)","UTC+01","BST",1
+"26","BTT","Bhutan Time","UTC+06","BTT",6
+"27","CAT","Central Africa Time","UTC+02","CAT",2
+"28","CCT","Cocos Islands Time","UTC+06:30","CCT",6.5
+"29","CDT","Central Daylight Time (North America)","UTC−05","CDT",-5
+"30","CDT","Cuba Daylight Time[1]","UTC−04","CDT",-4
+"31","CEDT","Central European Daylight Time","UTC+02","CED",2
+"32","CEST","Central European Summer Time (Cf. HAEC)","UTC+02","CES",2
+"33","CET","Central European Time","UTC+01","CET",1
+"34","CHADT","Chatham Daylight Time","UTC+13:45","CHA",13.75
+"35","CHAST","Chatham Standard Time","UTC+12:45","CHA",12.75
+"36","CHOT","Choibalsan","UTC−08","CHO",-8
+"37","ChST","Chamorro Standard Time","UTC+10","ChS",10
+"38","CHUT","Chuuk Time","UTC+10","CHU",10
+"39","CIST","Clipperton Island Standard Time","UTC−08","CIS",-8
+"40","CIT","Central Indonesia Time","UTC+08","CIT",8
+"41","CKT","Cook Island Time","UTC−10","CKT",-10
+"42","CLST","Chile Summer Time","UTC−03","CLS",-3
+"43","CLT","Chile Standard Time","UTC−04","CLT",-4
+"44","COST","Colombia Summer Time","UTC−04","COS",-4
+"45","COT","Colombia Time","UTC−05","COT",-5
+"46","CST","Central Standard Time (North America)","UTC−06","CST",-6
+"47","CST","China Standard Time","UTC+08","CST",8
+"48","CST","Central Standard Time (Australia)","UTC+09:30","CST",9.5
+"49","CST","Central Summer Time (Australia)","UTC+10:30","CST",10.5
+"50","CST","Cuba Standard Time","UTC−05","CST",-5
+"51","CT","China time","UTC+08","CT",8
+"52","CVT","Cape Verde Time","UTC−01","CVT",-1
+"53","CWST","Central Western Standard Time (Australia)","UTC+08:45","CWS",8.75
+"54","CXT","Christmas Island Time","UTC+07","CXT",7
+"55","DAVT","Davis Time","UTC+07","DAV",7
+"56","DDUT","Dumont d'Urville Time","UTC+10","DDU",10
+"57","DFT","AIX specific equivalent of Central European Time[2]","UTC+01","DFT",1
+"58","EASST","Easter Island Standard Summer Time","UTC−05","EAS",-5
+"59","EAST","Easter Island Standard Time","UTC−06","EAS",-6
+"60","EAT","East Africa Time","UTC+03","EAT",3
+"61","ECT","Eastern Caribbean Time (does not recognise DST)","UTC−04","ECT",-4
+"62","ECT","Ecuador Time","UTC−05","ECT",-5
+"63","EDT","Eastern Daylight Time (North America)","UTC−04","EDT",-4
+"64","EEDT","Eastern European Daylight Time","UTC+03","EED",3
+"65","EEST","Eastern European Summer Time","UTC+03","EES",3
+"66","EET","Eastern European Time","UTC+02","EET",2
+"67","EGST","Eastern Greenland Summer Time","UTC+00","EGS",0
+"68","EGT","Eastern Greenland Time","UTC−01","EGT",-1
+"69","EIT","Eastern Indonesian Time","UTC+09","EIT",9
+"70","EST","Eastern Standard Time (North America)","UTC−05","EST",-5
+"71","EST","Eastern Standard Time (Australia)","UTC+10","EST",10
+"72","FET","Further-eastern European Time","UTC+03","FET",3
+"73","FJT","Fiji Time","UTC+12","FJT",12
+"74","FKST","Falkland Islands Summer Time","UTC−03","FKS",-3
+"75","FKT","Falkland Islands Time","UTC−04","FKT",-4
+"76","FNT","Fernando de Noronha Time","UTC−02","FNT",-2
+"77","GALT","Galapagos Time","UTC−06","GAL",-6
+"78","GAMT","Gambier Islands","UTC−09","GAM",-9
+"79","GET","Georgia Standard Time","UTC+04","GET",4
+"80","GFT","French Guiana Time","UTC−03","GFT",-3
+"81","GILT","Gilbert Island Time","UTC+12","GIL",12
+"82","GIT","Gambier Island Time","UTC−09","GIT",-9
+"83","GMT","Greenwich Mean Time","UTC","GMT",0
+"84","GST","South Georgia and the South Sandwich Islands","UTC−02","GST",-2
+"85","GST","Gulf Standard Time","UTC+04","GST",4
+"86","GYT","Guyana Time","UTC−04","GYT",-4
+"87","HADT","Hawaii-Aleutian Daylight Time","UTC−09","HAD",-9
+"88","HAEC","Heure Avancée d'Europe Centrale francised name for CEST","UTC+02","HAE",2
+"89","HAST","Hawaii-Aleutian Standard Time","UTC−10","HAS",-10
+"90","HKT","Hong Kong Time","UTC+08","HKT",8
+"91","HMT","Heard and McDonald Islands Time","UTC+05","HMT",5
+"92","HOVT","Khovd Time","UTC+07","HOV",7
+"93","HST","Hawaii Standard Time","UTC−10","HST",-10
+"94","ICT","Indochina Time","UTC+07","ICT",7
+"95","IDT","Israel Daylight Time","UTC+03","IDT",3
+"96","IOT","Indian Ocean Time","UTC+03","IOT",3
+"97","IRDT","Iran Daylight Time","UTC+08","IRD",8
+"98","IRKT","Irkutsk Time","UTC+09","IRK",9
+"99","IRST","Iran Standard Time","UTC+03:30","IRS",3.5
+"100","IST","Indian Standard Time","UTC+05:30","IST",5.5
+"101","IST","Irish Standard Time[3]","UTC+01","IST",1
+"102","IST","Israel Standard Time","UTC+02","IST",2
+"103","JST","Japan Standard Time","UTC+09","JST",9
+"104","KGT","Kyrgyzstan time","UTC+06","KGT",6
+"105","KOST","Kosrae Time","UTC+11","KOS",11
+"106","KRAT","Krasnoyarsk Time","UTC+07","KRA",7
+"107","KST","Korea Standard Time","UTC+09","KST",9
+"108","LHST","Lord Howe Standard Time","UTC+10:30","LHS",10.5
+"109","LHST","Lord Howe Summer Time","UTC+11","LHS",11
+"110","LINT","Line Islands Time","UTC+14","LIN",14
+"111","MAGT","Magadan Time","UTC+12","MAG",12
+"112","MART","Marquesas Islands Time","UTC−09:30","MAR",-9.5
+"113","MAWT","Mawson Station Time","UTC+05","MAW",5
+"114","MDT","Mountain Daylight Time (North America)","UTC−06","MDT",-6
+"115","MET","Middle European Time Same zone as CET","UTC+01","MET",1
+"116","MEST","Middle European Saving Time Same zone as CEST","UTC+02","MES",2
+"117","MHT","Marshall Islands","UTC+12","MHT",12
+"118","MIST","Macquarie Island Station Time","UTC+11","MIS",11
+"119","MIT","Marquesas Islands Time","UTC−09:30","MIT",-9.5
+"120","MMT","Myanmar Time","UTC+06:30","MMT",6.5
+"121","MSK","Moscow Time","UTC+04","MSK",4
+"122","MST","Malaysia Standard Time","UTC+08","MST",8
+"123","MST","Mountain Standard Time (North America)","UTC−07","MST",-7
+"124","MST","Myanmar Standard Time","UTC+06:30","MST",6.5
+"125","MUT","Mauritius Time","UTC+04","MUT",4
+"126","MVT","Maldives Time","UTC+05","MVT",5
+"127","MYT","Malaysia Time","UTC+08","MYT",8
+"128","NCT","New Caledonia Time","UTC+11","NCT",11
+"129","NDT","Newfoundland Daylight Time","UTC−02:30","NDT",-2.5
+"130","NFT","Norfolk Time","UTC+11:30","NFT",11.5
+"131","NPT","Nepal Time","UTC+05:45","NPT",5.75
+"132","NST","Newfoundland Standard Time","UTC−03:30","NST",-3.5
+"133","NT","Newfoundland Time","UTC−03:30","NT",-3.5
+"134","NUT","Niue Time","UTC−11:30","NUT",-11.5
+"135","NZDT","New Zealand Daylight Time","UTC+13","NZD",13
+"136","NZST","New Zealand Standard Time","UTC+12","NZS",12
+"137","OMST","Omsk Time","UTC+06","OMS",6
+"138","ORAT","Oral Time","UTC+05","ORA",5
+"139","PDT","Pacific Daylight Time (North America)","UTC−07","PDT",-7
+"140","PET","Peru Time","UTC−05","PET",-5
+"141","PETT","Kamchatka Time","UTC+12","PET",12
+"142","PGT","Papua New Guinea Time","UTC+10","PGT",10
+"143","PHOT","Phoenix Island Time","UTC+13","PHO",13
+"144","PHT","Philippine Time","UTC+08","PHT",8
+"145","PKT","Pakistan Standard Time","UTC+05","PKT",5
+"146","PMDT","Saint Pierre and Miquelon Daylight time","UTC−02","PMD",-2
+"147","PMST","Saint Pierre and Miquelon Standard Time","UTC−03","PMS",-3
+"148","PONT","Pohnpei Standard Time","UTC+11","PON",11
+"149","PST","Pacific Standard Time (North America)","UTC−08","PST",-8
+"150","PST","Philippine Standard Time","UTC+08","PST",8
+"151","RET","Réunion Time","UTC+04","RET",4
+"152","ROTT","Rothera Research Station Time","UTC−03","ROT",-3
+"153","SAKT","Sakhalin Island time","UTC+11","SAK",11
+"154","SAMT","Samara Time","UTC+04","SAM",4
+"155","SAST","South African Standard Time","UTC+02","SAS",2
+"156","SBT","Solomon Islands Time","UTC+11","SBT",11
+"157","SCT","Seychelles Time","UTC+04","SCT",4
+"158","SGT","Singapore Time","UTC+08","SGT",8
+"159","SLT","Sri Lanka Time","UTC+05:30","SLT",5.5
+"160","SRT","Suriname Time","UTC−03","SRT",-3
+"161","SST","Samoa Standard Time","UTC−11","SST",-11
+"162","SST","Singapore Standard Time","UTC+08","SST",8
+"163","SYOT","Showa Station Time","UTC+03","SYO",3
+"164","TAHT","Tahiti Time","UTC−10","TAH",-10
+"165","THA","Thailand Standard Time","UTC+07","THA",7
+"166","TFT","Indian/Kerguelen","UTC+05","TFT",5
+"167","TJT","Tajikistan Time","UTC+05","TJT",5
+"168","TKT","Tokelau Time","UTC+14","TKT",14
+"169","TLT","Timor Leste Time","UTC+09","TLT",9
+"170","TMT","Turkmenistan Time","UTC+05","TMT",5
+"171","TOT","Tonga Time","UTC+13","TOT",13
+"172","TVT","Tuvalu Time","UTC+12","TVT",12
+"173","UCT","Coordinated Universal Time","UTC","UCT",0
+"174","ULAT","Ulaanbaatar Time","UTC+08","ULA",8
+"175","UTC","Coordinated Universal Time","UTC","UTC",0
+"176","UYST","Uruguay Summer Time","UTC−02","UYS",-2
+"177","UYT","Uruguay Standard Time","UTC−03","UYT",-3
+"178","UZT","Uzbekistan Time","UTC+05","UZT",5
+"179","VET","Venezuelan Standard Time","UTC−04:30","VET",-4.5
+"180","VLAT","Vladivostok Time","UTC+10","VLA",10
+"181","VOLT","Volgograd Time","UTC+04","VOL",4
+"182","VOST","Vostok Station Time","UTC+06","VOS",6
+"183","VUT","Vanuatu Time","UTC+11","VUT",11
+"184","WAKT","Wake Island Time","UTC+12","WAK",12
+"185","WAST","West Africa Summer Time","UTC+02","WAS",2
+"186","WAT","West Africa Time","UTC+01","WAT",1
+"187","WEDT","Western European Daylight Time","UTC+01","WED",1
+"188","WEST","Western European Summer Time","UTC+01","WES",1
+"189","WET","Western European Time","UTC","WET",0
+"190","WST","Western Standard Time","UTC+08","WST",8
+"191","YAKT","Yakutsk Time","UTC+09","YAK",9
+"192","YEKT","Yekaterinburg Time","UTC+05","YEK",5

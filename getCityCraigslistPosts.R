@@ -8,7 +8,7 @@ library(compiler)
 
 # Function to parse the actual CL post instead of the link in the post directory
 parsePosts <- cmpfun(function(posturl){
-  post <- scrape(posturl, follow=TRUE)
+  post <- scrape(posturl, follow=TRUE, maxSleep = 10, chunkSize=25)
   post.data <- ldply(post, function(i){
     # If scraping that URL doesn't return an HTML page, return an empty data frame
     if(mode(i)!="externalptr") {

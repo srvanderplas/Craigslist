@@ -1,0 +1,68 @@
+
+R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #!/usr/bin/Rscript
+> 
+> library(lubridate)
+> 
+> # Set working directory
+> # setwd("/home/susan/Documents/R Projects/Craigslist/")
+> 
+> source("./SamplePosts.R")
+Loading required package: XML
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+
+Attaching package: ‘plyr’
+
+The following object is masked from ‘package:lubridate’:
+
+    here
+
+Loading required package: DBI
+> # library(doMC)
+> # registerDoMC(15)
+> 
+> temp <- SamplePosts(N=2)
+> 
+> write.csv(temp, paste0("./data/", now(), ".csv"))
+> 
+> 
+> # con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
+> # cl <- dbReadTable(con, "craigslist", row.names=0)
+> # cl <- cl[!is.na(cl$post_id),-1]
+> # cl <- unique(cl)
+> # rownames(cl) <- 1:nrow(cl)
+> # dim(cl)
+> # cl <- as.data.frame(apply(cl, 2, dbEscapeStrings, con=con),stringsAsFactors=FALSE)
+> # dbWriteTable(conn=con, name="craigslist", value=cl, append=FALSE, overwrite=TRUE)
+> # dbDisconnect(con)
+> 
+> # rm(cl)
+> gc()
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 611498 32.7     899071 48.1   818163 43.7
+Vcells 783363  6.0    1445757 11.1  1300052 10.0
+> 
+> proc.time()
+   user  system elapsed 
+  7.901   0.261  77.925 

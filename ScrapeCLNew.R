@@ -9,7 +9,7 @@ source("./SamplePosts.R")
 # library(doMC)
 # registerDoMC(15)
 
-temp <- SamplePosts(N=10)
+temp <- SamplePosts(N=2)
 
 write.csv(temp, paste0("./data/", now(), ".csv"))
 

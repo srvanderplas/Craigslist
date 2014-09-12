@@ -3,7 +3,7 @@
 library(lubridate)
 
 # Set working directory
-setwd("/home/susan/Documents/R Projects/Craigslist/")
+# setwd("/home/susan/Documents/R Projects/Craigslist/")
 
 source("./SamplePosts.R")
 # library(doMC)

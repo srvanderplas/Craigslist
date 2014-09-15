@@ -17,6 +17,8 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+[Previously saved workspace restored]
+
 > #!/usr/bin/Rscript
 > 
 > library(lubridate)
@@ -42,27 +44,11 @@ Loading required package: DBI
 > # library(doMC)
 > # registerDoMC(15)
 > 
-> temp <- SamplePosts(N=2)
-> 
-> write.csv(temp, paste0("./data/", now(), ".csv"))
-> 
-> 
-> # con <- dbConnect(MySQL(), user="susan", dbname="susan", host="localhost")
-> # cl <- dbReadTable(con, "craigslist", row.names=0)
-> # cl <- cl[!is.na(cl$post_id),-1]
-> # cl <- unique(cl)
-> # rownames(cl) <- 1:nrow(cl)
-> # dim(cl)
-> # cl <- as.data.frame(apply(cl, 2, dbEscapeStrings, con=con),stringsAsFactors=FALSE)
-> # dbWriteTable(conn=con, name="craigslist", value=cl, append=FALSE, overwrite=TRUE)
-> # dbDisconnect(con)
-> 
-> # rm(cl)
-> gc()
-         used (Mb) gc trigger (Mb) max used (Mb)
-Ncells 611498 32.7     899071 48.1   818163 43.7
-Vcells 783363  6.0    1445757 11.1  1300052 10.0
-> 
-> proc.time()
-   user  system elapsed 
-  7.901   0.261  77.925 
+> temp <- SamplePosts(N=20)
+trace: NULL("s=\"personals_attrbubble personals_physical\">age : <b>22</b></span> <span class=\"personals_attrbubble personals_physical\">body : <b>average</b></span> <span class=\"personals_attrbubble personals_physical\">height : <b>  5'10\" (177cm)</b></span> <span class=\"personals_attrbubble personals_situational\">status : <b>single</b></span></P>\n        \n    </div>\n\n    <section id=\"postingbody\">\n        Hello I'm a bi-curious guy who has recently taking a liking to really feminine girly looking guya ... So if anyone wants to chat just hit me up.\n    </section>\n\n\n    <ul class=\"notices\"><li>do NOT contact me with unsolicited services or offers</li></ul>\n\n    <div class=\"postinginfos\">\n        <p class=\"postinginfo\">post id: 4659164473</p>\n        <p class=\"postinginfo\">posted: <time datetime=\"2014-09-08T20:51:16-0600\">2014-09-08  8:51pm</time></p>\n        \n               <p class=\"postinginfo\"><a href=\"https://accounts.craigslist.org/eaf?postingID=4659164473&amp;token=U2FsdGVkX18yODMxOTI4M6NShQ6FiO4rB2EXRhHlGHEyODAsocIyGF1Tudkjn4pm3HE6qyYqQuROX8vrM3xEPSlWLJsInIS6\" class=\"tsb\">email to friend</a></p>\n               <p class=\"postinginfo\"><a class=\"bestoflink\" data-flag=\"9\" href=\"https://post.craigslist.org/flag?flagCode=9&amp;postingID=4659164473&amp;\" title=\"nominate for best-of-CL\"><span class=\"bestof\">&hearts; </span><span class=\"bestoftext\">best of</span></a> <sup>[<a href=\"http://www.craigslist.org/about/best-of-craigslist\">?</a>]</sup>\n</p>\n    </div>\n\n</section>\n\n\n\n\n        </section>\n        <footer>\n    \n    <ul class=\"clfooter\">\n        <li>&copy; 2014 <span class=\"desktop\">craigslist</span><span class=\"mobile\">CL</span></li>\n        <li><a href=\"//www.craigslist.org/about/help/\">help</a></li>\n        <li><a href=\"//www.craigslist.org/about/scams\">safety</a></li>\n        <li class=\"desktop\"><a href=\"//www.craigslist.org/about/privacy.policy\">privacy</a></li>\n        <li class=\"desktop\"><a href=\"https://forums.craigslist.org/?forumID=8\">feedback</a></li>\n        <li class=\"desktop\"><a href=\"//www.craigslist.org/about/craigslist_is_hiring\">cl jobs</a></li>\n        <li><a href=\"//www.craigslist.org/about/terms.of.use\">terms</a></li>\n        <li><a href=\"//www.craigslist.org/about/\">about</a></li>\n        <li class=\"fsel desktop\" data-mode=\"mobile\"><a href=\"#\">mobile</a></li>\n        <li class=\"fsel mobile\" data-mode=\"regular\"><a href=\"#\">desktop</a></li>\n    </ul>\n</footer>\n    </article>\n\n    \n        <script type=\"text/javascript\"><!--\n            var pID = \"4659164473\";\n\n        --></script>\n    \n    <script src=\"//www.craigslist.org/js/general-concat.min.js?v=7f9ae89c41b35bcc5c3dd94a549c5f8f\" type=\"text/javascript\" ></script>\n    <script type=\"text/javascript\"><!--\n        var iframe = document.createElement('iframe');\n        iframe.style.display = 'none';\n        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=51a29e41f8e978141e4085ed4a77d170';\n        document.body.insertBefore(iframe, null);\n    --></script>\n    \n    <script src=\"//www.craigslist.org/js/postings-concat.min.js?v=5a04b577b7576e52c41060f37c89ad43\" type=\"text/javascript\" ></script>\n</body>\n</html>")
+Error in curlMultiPerform(multiHandle) : attempt to apply non-function
+Error in curlMultiPerform(multiHandle) : attempt to apply non-function
+
+Warning message:
+In selectChildren(ac, 1) : error 'Interrupted system call' in select
+Execution halted

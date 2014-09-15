@@ -19,7 +19,7 @@ null.df <- data.frame(cityurl=NA, subcl=NA, post.id=NA, post.link=NA, post.data.
 
 SamplePosts <- function(N=10, subcl="ppp"){
   samplecities <- sample(1:nrow(craigslistURLs), N, replace=FALSE, prob=craigslistURLs$weight)
-  temp <- mclapply(craigslistURLs$link[samplecities], 
+  temp <- lapply(craigslistURLs$link[samplecities], 
                 function(i) {              
                   a <- try(getCityPosts(i, subcl))
                   if(mode(a)=="character") return(data.frame())

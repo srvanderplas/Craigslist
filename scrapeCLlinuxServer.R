@@ -7,8 +7,10 @@ source("./SamplePosts.R")
 
 for(i in 1:20){
   temp <- SamplePosts(N=1)
+  if(nrow(temp)>0){
+    write.csv(temp, paste0("./data/", now(), ".csv"))
+  }
   
-  write.csv(temp, paste0("./data/", now(), ".csv"))
 }
 
 system("git pull")

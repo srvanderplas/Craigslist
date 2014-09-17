@@ -10,11 +10,10 @@ url <- "https://www.craigslist.org/about/sites#US"
 craigslists <- scrape(url)[[1]]
 # Let's select the various regions, each within their own <div class="colmask"></div> tags
 regions <- getNodeSet(craigslists, '//*[@class="body"]/div[@class="colmask"]')
-length(regions)
 # ok, so there are 7 regions: US, Canada, Europe, Asia/Pacific/Middle East, Oceania, Latin America/Carribean, Africa.
 
 # get region names
-regionNames <- sapply(getNodeSet(cities, '//*[@class="body"]/h1/a'), xmlAttrs, "name")
+regionNames <- sapply(getNodeSet(craigslists, '//*[@class="body"]/h1/a'), xmlAttrs, "name")
 # get HTML sections corresponding to each region
 regionList <- lapply(1:length(regions), function(i) getNodeSet(craigslists, path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div', sep="")))
 

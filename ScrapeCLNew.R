@@ -6,10 +6,13 @@ library(lubridate)
 # setwd("/home/susan/Documents/R Projects/Craigslist/")
 
 source("./SamplePosts.R")
-# library(doMC)
+library(doMC)
 # registerDoMC(15)
 
-temp <- SamplePosts(N=10)
+Sys.setenv(http_proxy="127.0.0.1:8118")
+Sys.getenv("http_proxy")
+
+temp <- SamplePosts(N=1)
 
 write.csv(temp, paste0("./data/", now(), ".csv"))
 

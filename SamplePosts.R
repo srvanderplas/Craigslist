@@ -21,6 +21,7 @@ SamplePosts <- function(N=10, subcl="ppp"){
   samplecities <- sample(1:nrow(craigslistURLs), N, replace=FALSE, prob=craigslistURLs$weight)
   temp <- lapply(craigslistURLs$link[samplecities], 
                 function(i) {              
+                  system("(echo authenticate '\"trusassy\"'; echo signal newnym; echo quit) | nc localhost 9051")
                   a <- try(getCityPosts(i, subcl))
                   if(mode(a)=="character") return(data.frame())
                   # only save rows with at least a post id
